@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
-import connectDb from './database/index.js';
-import modules from './modules';
+import connectDb from './src/database/index';
+import modules from './src/modules';
 
 const app: Express = express();
 connectDb();
